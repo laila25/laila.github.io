@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    width: 320px;
+    font-family: open sans;
+}
+
+.hero {
+    background-image: url("/images/images/fotomuro2.jpg");
+    height: 421px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+h2 {
+    
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.claim {
+    background-color: white;
+    margin: 0 0 -100px;
+    padding: 10px;
+    width: 80%;
+}
+
+.menu {
+    background-color: #099d8d;
+    opacity: 0.95;
+    width: 320px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.link {
+    display: inline-block;
+    margin: 52px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #14d9c4;
+    width: 320px;
+    height: 45px;
+    position: fixed;
+    z-index: 2;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+.team-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+.team-2 span{
+    position: absolute;
+    top: -100px;
+}
+
+.t-team {
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 24px;
+    color: aqua;
+    line-height: 45px;
+    text-align: center;
+}
+
+.txt {
+    font-size: 16px;
+    color: #54585a;
+    text-align: center;
+    padding: 15px;
+    margin-top: -35px;
+}
+
+.triangle {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    transform: rotate(45deg);
+    margin-bottom: -16px;
+}
+
+.t-strengths {
+    background-color: #b8b8b933;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+.t-strengths-tittle {
+    font-size: 22px;
+    color: #099d8d;
+    line-height: 45px;
+    text-align: center;
+}
+
+
+
+.about_us {
+    max-width: 320px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.about_us span{
+    position: absolute;
+    top: -100px;
+}
+
+.profiles {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about {
+    font-family: 'Rubik';
+    font-size: 24px;
+    color:#099d8d;
+    font-weight: 300;
+}
+
+.image-container {
+  margin: 0 auto;
+  background: rgb(238, 236, 236);
+  width: 180px;
+  height: 180px;
+  padding: 6px;
+  border-radius: 12px;
+}
+
+
+.about_us img {
+    border-radius: 8px;
+}
+
+.names {
+    font-size: 20px;
+}
+
+.description {
+    font-size: 16px;
+    color: #54585a;
+    padding: 15px;
+}
+
+.items-icons {
+    width: 16px;
+    height: 18px;
+    display: inline-block;
+    box-sizing: border-box;
+    transition: transform 1s ease-in-out;
+}
+
+.items-icons:hover {
+    transform: rotate(360deg);
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 100px;
+    margin: 16px 0 32px 0;
+}
+
+.fab, .fas {
+    color: #099d8d;
+}
+
+.footer {
+    margin-top: 15px;
+    font-family: Open Sans;
+    text-align: center;
+    font-size: 14px;
+}
+
+.f-team {
+    color: #b8b8b9;
+    line-height: 20px;
+}
+
+.f-link a{
+    color: #54585a;
+    opacity: 0.75;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer img {
+    max-width: 100px;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
