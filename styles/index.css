@@ -4,7 +4,7 @@ body {
 }
 
 .hero {
-    background-image: url("/images/images/fotomuro2.jpg");
+    background-image: url("../images/images/fotomuro2.jpg");
     height: 421px;
     display: flex;
     justify-content: center;
