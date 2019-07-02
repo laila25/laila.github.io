@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+git <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>The Bold Team</title>
     <link rel="stylesheet" href="/styles/index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
     <link href="https://fonts.googleapis.com/css?family=Rubik:500&display=swap" rel="stylesheet">
@@ -15,12 +15,12 @@
 <body>
     
     <header class="menu" > 
-        <h1>THE BOLD TEAM</h1>
-        <nav class="nav"> 
-            <a href="#team">EQUIPO</a> 
-            <a href="#about_us">QUIENES SOMOS</a>
-            <a href="">CONTACTO</a>
-        </nav>
+            <div class="title"> <h1>THE BOLD TEAM</h1></div>
+            <nav class="nav"> 
+                <a href="#team">EQUIPO</a> 
+                <a href="#about_us">QUIENES SOMOS</a>
+                <a href="">CONTACTO</a>
+            </nav>
     </header>
     <section class="hero">
         <div class="claim">
@@ -37,27 +37,31 @@
         <div class="triangle"></div>
     </div>
     <div class="t-strengths">
-        <h3 class="t-strengths-tittle">Fortalezas</h3>
-        <p class="txt">
-            Intrépidas corredoras de fondo, supervivientes sin miedo a afrontar más cambios. Saltamos a la piscina sin flotador y ajustando el overflow. Nos hemos caído 1000 píxeles y nos hemos levantado 2000.
-        </p>
-        <h3 class="t-strengths-tittle">Debilidades</h3>
-        <p class="txt">
-            Estamos como peces en un mar de código, aprendiendo a programar bajo el agua, y dirigiendo nuestras aletas hacia el futuro tecnológico.
-        </p>
+        <div class="t-strengths-content">
+            <h3 class="t-strengths-tittle">Fortalezas</h3>
+            <p class="txt">
+                Intrépidas corredoras de fondo, supervivientes sin miedo a afrontar más cambios. Saltamos a la piscina sin flotador y ajustando el overflow. Nos hemos caído 1000 píxeles y nos hemos levantado 2000.
+            </p>
+        </div>
+        <div class="t-strengths-content">
+            <h3 class="t-strengths-tittle">Debilidades</h3>
+            <p class="txt">
+                Estamos como peces en un mar de código, aprendiendo a programar bajo el agua, y dirigiendo nuestras aletas hacia el futuro tecnológico.
+            </p>
+        </div>
     </div>
-
-
-
-
-
+    
+    
+    <!--ABOUT US-->
+    
     <section class="about_us"><span id="about_us"></span> 
-            <h2 class="about">QUIÉNES SOMOS</h2>
-            <div class="profiles">
-                <div class="image-container"><img src="/images/images/ana-amaro.jpg" alt="Ana Amaro"></div>
-                <h2 class="names">Ana Amaro</h2>
-                <p class="description">Gallega friki, administradora de sistemas, que lo mismo te monto una wikipedia con linux como te organizo un evento de poesía y música. Autodidacta e inconformista por naturaleza, decidí cambiar el rumbo de mi vida y perderme entre la programación web, por la cual siempre he sentido una gran curiosidad.</p>
-                <ul class="icons">
+        <h2 class="about">QUIÉNES SOMOS</h2>
+        <div class="profiles">
+            <div class="image-container"><img src="/images/images/ana-amaro.jpg" alt="Ana Amaro"></div>
+            <div class="info-container">
+            <h2 class="names one">Ana Amaro</h2>
+            <p class="description one">Gallega friki, administradora de sistemas, que lo mismo te monto una wikipedia con linux como te organizo un evento de poesía y música. Autodidacta e inconformista por naturaleza, decidí cambiar el rumbo de mi vida y perderme entre la programación web, por la cual siempre he sentido una gran curiosidad.</p>
+                <ul class="icons one">
                     <li class="items-icons"> 
                         <a href="https://twitter.com/AnaRedfox_" target="blank"><i class="fab fa-twitter"></i></a>
                     </li>
@@ -72,13 +76,15 @@
                     </li>
                 </ul>
             </div>
-            <div class="profiles">
-                <div class="image-container"><img src="/images/images/ana-montiaga.jpg" alt="Ana Montiaga"></div>
-                <h2 class="names">Ana Montiaga</h2>
-                <p class="description">Con una inagotable curiosidad y en continuo aprendizaje. Tras mi paso por el tercer sector, el marketing y la consultoría social, busco reinventarme como
-                programadora Front-End y realizarme en el sector digital.
+        </div>
+        <div class="profiles">
+            <div class="image-container"><img src="/images/images/ana-montiaga.jpg" alt="Ana Montiaga"></div>
+            <div class="info-container">
+                <h2 class="names two">Ana Montiaga</h2>
+                <p class="description two">Con una inagotable curiosidad y en continuo aprendizaje. Tras mi paso por el tercer sector, el marketing y la consultoría social, busco reinventarme como
+                    programadora Front-End y realizarme en el sector digital.
                 </p>
-                <ul class="icons">
+                <ul class="icons two">
                     <li class="items-icons"> 
                         <a href="https://twitter.com/AMontiaga" target="blank"><i class="fab fa-twitter"></i></a>
                     </li>
@@ -93,12 +99,14 @@
                     </li>
                 </ul>
             </div>
-            <div class="profiles">
-                <div class="image-container"><img src="/images/images/laura-sanchez.jpg" alt="Laura Sánchez"></div>
-                <h2 class="names">Laura Sánchez</h2>
-                <p class="description">Tras una larga trayectoria de prueba y error laboral e intelectual, busco encontrar mi sitio y mi pasión. Un giro de 360º hacia el desarrollo web que creo que será el inicio de una apasionante y gratificante carrera profesional. 
+        </div>
+        <div class="profiles">
+            <div class="image-container"><img src="/images/images/laura-sanchez.jpg" alt="Laura Sánchez"></div>
+            <div class="info-container">
+                <h2 class="names three">Laura Sánchez</h2>
+                <p class="description three">Tras una larga trayectoria de prueba y error laboral e intelectual, busco encontrar mi sitio y mi pasión. Un giro de 360º hacia el desarrollo web que creo que será el inicio de una apasionante y gratificante carrera profesional. 
                 </p>
-                <ul class="icons">
+                <ul class="icons three">
                     <li class="items-icons"> 
                         <a href="https://twitter.com/@lailina25" target="blank"><i class="fab fa-twitter"></i></a>
                     </li>
@@ -113,12 +121,14 @@
                     </li>
                 </ul>
             </div>
-            <div class="profiles">
-                <div class="image-container"><img src="/images/images/eva-lorenzo.jpg" alt="Eva Lorenzo"></div>
-                <h2 class="names">Eva Lorenzo</h2>
-                <p class="description">Después de intentarlo como maestra de infantil, me encuentro recorriendo un nuevo camino hacia el sector digital, con mucha ilusión, ganas y siempre de front ante los retos. Tras varias rutas fallidas, creo que por fin he dado con el directorio correcto.
+        </div>
+        <div class="profiles">
+            <div class="image-container"><img src="/images/images/eva-lorenzo.jpg" alt="Eva Lorenzo"></div>
+            <div class="info-container">
+                <h2 class="names four">Eva Lorenzo</h2>
+                <p class="description four">Después de intentarlo como maestra de infantil, me encuentro recorriendo un nuevo camino hacia el sector digital, con mucha ilusión, ganas y siempre de front ante los retos. Tras varias rutas fallidas, creo que por fin he dado con el directorio correcto.
                 </p>
-                <ul class="icons">
+                <ul class="icons four">
                     <li class="items-icons"> 
                         <a href="https://twitter.com/EvaLm55646470" target="blank"><i class="fab fa-twitter"></i></a>
                     </li>
@@ -133,14 +143,16 @@
                     </li>
                 </ul>
             </div>
-            <div class="profiles">
-                <div class="image-container"><img src="/images/images/raquel-montilla.jpg" alt="Raquel Montilla"></div>
-                <h2 class="names">Raquel Montilla</h2>
-                <p class="description">El arte, la gráfica y la meditación son los tres pilares que me han conformado en la mirada cotidiana, en el espíritu crítico y la curiosidad de seguir aprendiendo de tanto y todo lo que sucede alrededor. En este momento la programación es otro vehículo para seguir, avanzar y explorar nuevas facetas, nuevas realidades, nuevas oportunidades y nuevos retos.
+        </div>
+        <div class="profiles">
+            <div class="image-container"><img src="/images/images/raquel-montilla.jpg" alt="Raquel Montilla"></div>
+            <div class="info-container">
+                <h2 class="names five">Raquel Montilla</h2>
+                <p class="description five">El arte, la gráfica y la meditación son los tres pilares que me han conformado en la mirada cotidiana, en el espíritu crítico y la curiosidad de seguir aprendiendo de tanto y todo lo que sucede alrededor. En este momento la programación es otro vehículo para seguir, avanzar y explorar nuevas facetas, nuevas realidades, nuevas oportunidades y nuevos retos.
                 </p>
-                <ul class="icons">
+                <ul class="icons five">
                     <li class="items-icons"> 
-                        <a href="https://www.estudiolamendalerenda.com/" target="blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://twitter.com/raquelmontilla2" target="blank"><i class="fab fa-twitter"></i></a>
                     </li>
                     <li class="items-icons"> 
                         <a href= "https://www.linkedin.com/in/raquel-montilla-calvo-38704863/?originalSubdomain=es" target="blank"><i class="fab fa-linkedin-in"></i></a>
@@ -153,17 +165,23 @@
                     </li>
                 </ul>
             </div>
-    
-    
-        </section>  
+        </div>
         
+        
+    </section>  
+    
     <footer class="footer">
-        <p class="f-team">The Bold Team 2019</p>
-        <p class="f-link">
-            <a href="#team">EQUIPO</a></br>
-            <a href="#about_us">QUIENES SOMOS</a></br>
-            <a href="/contacto.html">CONTACTO</a></p>
-        <img src="https://adalab.es/assets/images/logo-adalab.svg" alt="logo adalab">
+        
+        <div class="f-team">The Bold Team &copy;2019</div>
+        
+        <ul class="f-link">
+            <li><a class="f-link-item" href="#team">EQUIPO</a></li>
+            <li><a class="f-link-item" href="#about_us">QUIENES SOMOS</a></li>
+            <li><a class="f-link-item" href="/contacto.html">CONTACTO</a></li>
+        </ul>
+        <div class="footer-img">
+            <img src="https://adalab.es/assets/images/logo-adalab.svg" alt="logo adalab">
+        </div>
     </footer>
 </body>
 </html>
