@@ -374,14 +374,13 @@ a {
 
 @media all and (min-width:1200px) {
     body {
-        max-width: 1200px;
         margin: auto;
     }
 
     .footer {
         width: 100vw;
         box-sizing: border-box;
-        padding-left: 10%;    
-        padding-right: 10%;
+        padding-left: 139px;    
+        padding-right: 139px;
     }
 }
