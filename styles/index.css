@@ -250,6 +250,15 @@ a {
         display: flex;
         justify-content: space-between;
     }
+    .hero {
+        background-image: url("../images/images/WEBHEADER.jpg");
+        height: 421px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-size: cover;
+        background-position: center;
+    }
  
     .claim {
         opacity: 0.8;
@@ -367,9 +376,26 @@ a {
 }
 
 @media all and (min-width:1200px) {
+
+    .title {       
+        margin-left: 142px;
+    }
+    .nav {
+        margin-right: 138px;
+    }
+    .hero {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    }
+ 
+    .claim {
+margin-left: 138px;
+margin-right: 488px;
+  
+    }
     body {
-        max-width: 1200px;
-        margin: auto;
+       margin: auto;
     }
 
     .footer {
