@@ -454,12 +454,13 @@ margin-right: 488px;
 
     .names {
         padding-bottom: 0;
+        margin: auto;
     }
 
     .footer {
         width: 100vw;
         box-sizing: border-box;
-        padding-left: 10%;    
-        padding-right: 10%;
+        padding-left: 139px;    
+        padding-right: 139px;
     }
 }
