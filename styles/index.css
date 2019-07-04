@@ -275,6 +275,12 @@ a {
         margin-top: 0;
     }
 
+    .team-2 span{
+        position: absolute;
+        top: -50px;
+    }
+    
+
     .t-strengths {
         display: flex;
     }
