@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: flex-end;
     background-size: cover;
-        background-position: center;
+    background-position: center;
 }
 h2 {
     
@@ -142,12 +142,12 @@ a {
 }
 
 .image-container {
-  margin: 0 auto;
-  background: rgb(238, 236, 236);
-  width: 180px;
-  height: 180px;
-  padding: 6px;
-  border-radius: 12px;
+    margin: 0 auto;
+    background: rgb(238, 236, 236);
+    width: 180px;
+    height: 180px;
+    padding: 6px;
+    border-radius: 12px;
 }
 
 
@@ -238,24 +238,24 @@ a {
 }
 
 @media all and (min-width:768px) {
-
+    
     .menu {
         display: flex;
         justify-content: space-between;
         max-width: 100%;
     }
-
+    
     .title {
         width: 30%;
         height: 60px;
         background-color: #099d8d;
         margin-left: 45px;
     }
-
+    
     h1 {
         text-align: left;
     }
-
+    
     .nav {
         height: 60px;
         max-width: 350px;
@@ -264,6 +264,7 @@ a {
         display: flex;
         justify-content: space-between;
     }
+<<<<<<< HEAD
     .hero {
         background-image: url("../images/images/WEBHEADER.jpg");
         height: 421px;
@@ -274,23 +275,28 @@ a {
         background-position: center;
     }
  
+=======
+    
+>>>>>>> who
     .claim {
         opacity: 0.8;
         margin: -100px 0 0 -250px;
         padding: 15 30 15 30px;
         width: 60%;
     }
-
+    .t-team {
+        color: #099d8d;
+    }
     .team-2 {
         margin-top: 0;
     }
-
+    
     .team-2 span{
         position: absolute;
         top: -50px;
     }
     
-
+    
     .t-strengths {
         display: flex;
     }
@@ -300,6 +306,7 @@ a {
         flex-direction: column;
         width: 50%;
     }
+<<<<<<< HEAD
 
 
 /* About Us - 768 - tablet */
@@ -374,6 +381,71 @@ a {
 
     /* End About Us 768 tablet */ 
 
+=======
+    
+    
+    .profiles {
+        display:flex;
+        
+    }
+    
+    .profiles:nth-of-type(2n+1) {
+        display:flex;
+        flex-direction: row;
+        
+    }
+    
+    .profiles:nth-of-type(2n) {
+        display:flex;
+        flex-direction: row-reverse;
+        
+    }
+    
+    .names.one, .names.three, .names.five {
+        text-align: left;
+    }
+    
+    .names.two, .names.four {
+        text-align: right;
+    }
+    
+    .names {
+        padding: 20px;
+        margin: 0;
+    }
+    
+    .description.one, .description.three, .description.five {
+        text-align: left;
+        margin: 0;
+        padding-bottom: 0;
+    }
+    
+    .description.two, .description.four {
+        text-align: right;
+        margin: 0;
+        padding-bottom: 0;
+    }
+    
+    .icons.one, .icons.three, .icons.five {
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .icons.two, .icons.four {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0;
+        margin: 0 20px 0 0;
+    }
+    
+    .items-icons {
+        padding: 20px;
+    }
+    
+    
+>>>>>>> who
     .footer {
         display: flex;
         width: 100%;
@@ -382,27 +454,31 @@ a {
         margin-bottom: 20px;
         position: relative;
     }
-
+    
     .f-team {
         margin-left: 30px;
         margin-bottom: -5px;
         margin-top: -30px;
         order: -2;
     }
-
+    
     .f-link {
         text-align: right;
         line-height: 30px;
         margin-right: 30px;
         margin-top: 40px;
     }
-
+    
     .footer-img {
         order: -1;
         margin-left: 30px;
         position: absolute;
         top: 50%;
     }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> who
 }
 
 @media all and (min-width:1200px) {
@@ -425,6 +501,7 @@ margin-right: 488px;
   
     }
     body {
+<<<<<<< HEAD
        margin: auto;
     }
 
@@ -454,9 +531,27 @@ margin-right: 488px;
 
     .names {
         padding-bottom: 0;
+=======
+>>>>>>> who
         margin: auto;
     }
-
+    
+    .txt {
+        font-size: 16px;
+        color: #54585a;
+        text-align: center;
+        margin-top: -35px;
+    }
+    
+    .team-2-content p {
+        padding-right: 300px;
+        padding-left: 300px;
+    }
+    
+    .t-strengths{
+        padding-left: 139px;
+        padding-right: 139px;
+    }
     .footer {
         width: 100vw;
         box-sizing: border-box;
