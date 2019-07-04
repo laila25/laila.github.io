@@ -171,6 +171,7 @@ a {
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
+    align-items: center;
 }
 
 .items-icons::after {
@@ -446,6 +447,10 @@ a {
         justify-content: space-between;
         margin-bottom: 20px;
         position: relative;
+    }
+
+    .footer img {
+        margin-top: -70px
     }
     
     .f-team {
