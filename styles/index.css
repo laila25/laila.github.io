@@ -264,7 +264,6 @@ a {
         display: flex;
         justify-content: space-between;
     }
-<<<<<<< HEAD
     .hero {
         background-image: url("../images/images/WEBHEADER.jpg");
         height: 421px;
@@ -275,9 +274,6 @@ a {
         background-position: center;
     }
  
-=======
-    
->>>>>>> who
     .claim {
         opacity: 0.8;
         margin: -100px 0 0 -250px;
@@ -306,7 +302,6 @@ a {
         flex-direction: column;
         width: 50%;
     }
-<<<<<<< HEAD
 
 
 /* About Us - 768 - tablet */
@@ -381,7 +376,6 @@ a {
 
     /* End About Us 768 tablet */ 
 
-=======
     
     
     .profiles {
@@ -445,7 +439,6 @@ a {
     }
     
     
->>>>>>> who
     .footer {
         display: flex;
         width: 100%;
@@ -475,10 +468,6 @@ a {
         position: absolute;
         top: 50%;
     }
-<<<<<<< HEAD
-=======
-    
->>>>>>> who
 }
 
 @media all and (min-width:1200px) {
@@ -501,7 +490,6 @@ margin-right: 488px;
   
     }
     body {
-<<<<<<< HEAD
        margin: auto;
     }
 
@@ -531,8 +519,6 @@ margin-right: 488px;
 
     .names {
         padding-bottom: 0;
-=======
->>>>>>> who
         margin: auto;
     }
     
